@@ -24,7 +24,8 @@ describe('define', function () {
     let ctx = ponContext()
     let task = define({
       mocha: [ `${__dirname}/../misc/mocks/*-test.js`, {} ],
-      command: [ 'ls', [ '-la' ] ]
+      command: [ 'ls', [ '-la' ] ],
+      coz: [ '.*.bud' ]
     })
     ok(task)
 
