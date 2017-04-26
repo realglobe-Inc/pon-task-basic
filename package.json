@@ -1,6 +1,6 @@
 {
   "name": "pon-task-basic",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Basic task set for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -24,10 +24,10 @@
   "homepage": "https://github.com/realglobe-Inc/pon-task-basic#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "pon-task-command": "^1.0.1",
-    "pon-task-coz": "^1.0.1",
-    "pon-task-fs": "^1.0.1",
-    "pon-task-mocha": "^1.0.1"
+    "pon-task-command": "^1.0.2",
+    "pon-task-coz": "^1.0.2",
+    "pon-task-fs": "^2.0.1",
+    "pon-task-mocha": "^1.0.2"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -41,15 +41,12 @@
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "pon-context": "^1.1.2",
-    "pon-doc": "^1.0.1",
+    "pon-context": "^2.0.1",
+    "pon-doc": "^2.0.1",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
