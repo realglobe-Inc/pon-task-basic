@@ -26,7 +26,8 @@
     "co": "^4.6.0",
     "pon-task-command": "^1.0.2",
     "pon-task-coz": "^1.0.2",
-    "pon-task-fs": "^2.1.1",
+    "pon-task-fmtjson": "^1.0.1",
+    "pon-task-fs": "^2.1.2",
     "pon-task-mocha": "^1.0.2"
   },
   "devDependencies": {
@@ -38,10 +39,10 @@
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^5.0.20",
-    "ape-updating": "^4.1.0",
+    "ape-updating": "^4.1.1",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "pon-context": "^2.0.1",
+    "pon-context": "^2.0.2",
     "pon-doc": "^2.0.1",
     "sugos-travis": "^2.0.7"
   },
