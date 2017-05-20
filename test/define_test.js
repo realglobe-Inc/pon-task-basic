@@ -26,7 +26,8 @@ describe('define', function () {
       mocha: [ `${__dirname}/../misc/mocks/*-test.js`, {} ],
       command: [ 'ls', [ '-la' ] ],
       coz: [ '.*.bud' ],
-      fmtjson: [ '*.json' ]
+      fmtjson: [ '*.json' ],
+      env: [ process.env.NODE_ENV ]
     })
     ok(task)
 

@@ -1,6 +1,6 @@
 {
   "name": "pon-task-basic",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Basic task set for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -26,7 +26,7 @@
     "co": "^4.6.0",
     "pon-task-command": "^1.0.4",
     "pon-task-coz": "^1.0.3",
-    "pon-task-env": "^1.0.1",
+    "pon-task-env": "^1.0.2",
     "pon-task-fmtjson": "^1.0.1",
     "pon-task-fs": "^2.2.2",
     "pon-task-mocha": "^1.0.2"
