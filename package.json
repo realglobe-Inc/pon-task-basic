@@ -26,8 +26,9 @@
     "co": "^4.6.0",
     "pon-task-command": "^1.0.4",
     "pon-task-coz": "^1.0.3",
+    "pon-task-env": "^1.0.1",
     "pon-task-fmtjson": "^1.0.1",
-    "pon-task-fs": "^2.1.2",
+    "pon-task-fs": "^2.2.2",
     "pon-task-mocha": "^1.0.2"
   },
   "devDependencies": {
