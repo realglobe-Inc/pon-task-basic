@@ -6,33 +6,32 @@
 
 const define = require('../lib/define.js')
 const ponContext = require('pon-context')
-const { ok } = require('assert')
-const co = require('co')
+const {ok} = require('assert')
 
 describe('define', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Define', () => co(function * () {
+  it('Define', async () => {
     let ctx = ponContext()
     let task = define({
-      mocha: [ `${__dirname}/../misc/mocks/*-test.js`, {} ],
-      command: [ 'ls', [ '-la' ] ],
-      coz: [ '.*.bud' ],
-      fmtjson: [ '*.json' ],
-      env: [ process.env.NODE_ENV ]
+      mocha: [`${__dirname}/../misc/mocks/*-test.js`, {}],
+      command: ['ls', ['-la']],
+      coz: ['.*.bud'],
+      fmtjson: ['*.json'],
+      env: [process.env.NODE_ENV]
     })
     ok(task)
 
     yield Promise.resolve(task(ctx))
-  }))
+  })
 })
 
 /* global describe, before, after, it */
