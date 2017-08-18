@@ -30,7 +30,7 @@ describe('define', function () {
     })
     ok(task)
 
-    yield Promise.resolve(task(ctx))
+    await Promise.resolve(task(ctx))
   })
 })
 
