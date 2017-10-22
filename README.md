@@ -110,6 +110,10 @@ Define task
 | ---- | --- | ----------- |
 | options | Object |  Optional settings |
 | options.mocha | Array |  Args for pon-task-mocha |
+| options.fmtjson | Array |  Args for pon-fmtjson-task |
+| options.command | Array |  Args for pon-command-task |
+| options.env | Array |  Args for pon-env-task |
+| options.task | Array |  Args for pon-task-task |
 
 
 
