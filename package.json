@@ -25,14 +25,14 @@
   "dependencies": {
     "pon-task-command": "^2.0.1",
     "pon-task-coz": "^1.0.3",
-    "pon-task-env": "^1.1.3",
+    "pon-task-env": "^1.2.1",
     "pon-task-fmtjson": "^1.0.1",
     "pon-task-fs": "^3.0.1",
     "pon-task-mocha": "^1.0.2",
     "pon-task-task": "^1.0.1"
   },
   "devDependencies": {
-    "ababel": "^2.0.1",
+    "ababel": "^2.0.3",
     "ababel-es2015": "^2.0.1",
     "amocha": "^4.0.0",
     "ape-doc": "^2.0.4",
