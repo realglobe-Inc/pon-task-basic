@@ -27,7 +27,6 @@ describe('define', function () {
       coz: ['.*.bud'],
       fmtjson: ['*.json'],
       env: [process.env.NODE_ENV],
-      task: [[]]
     })
     ok(task)
 

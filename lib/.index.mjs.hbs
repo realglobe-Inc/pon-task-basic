@@ -1,0 +1,23 @@
+/**
+ * {{pkg.description}}
+ * @module {{pkg.name}}
+ * @version {{pkg.version}}
+ */
+
+'use strict'
+
+import define from './define'
+
+const lib = define.bind(this)
+
+Object.assign(lib, define, {
+  define
+})
+
+const { {{#each subPacks}}{{@key}}, {{/each}} } = define
+
+export default lib
+export {
+{{#each subPacks}}  {{@key}},
+{{/each}}
+}

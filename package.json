@@ -1,6 +1,6 @@
 {
   "name": "pon-task-basic",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "description": "Basic task set for pon",
   "main": "lib",
   "browser": "shim/browser",
@@ -29,6 +29,7 @@
     "pon-task-fmtjson": "^2.0.1",
     "pon-task-fs": "^3.1.4",
     "pon-task-mocha": "^2.0.2",
+    "pon-task-open": "^1.0.2",
     "pon-task-task": "^1.0.1"
   },
   "devDependencies": {
@@ -43,6 +44,7 @@
     "ape-updating": "^4.1.1",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
+    "pon": "^5.2.2",
     "pon-context": "^2.0.2",
     "pon-doc": "^2.0.1",
     "sugos-travis": "^2.0.7"
