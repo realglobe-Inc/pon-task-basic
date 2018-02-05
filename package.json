@@ -28,15 +28,15 @@
     "pon-task-env": "^1.3.3",
     "pon-task-fmtjson": "^2.0.1",
     "pon-task-fs": "^3.1.4",
-    "pon-task-mocha": "^2.0.2",
+    "pon-task-mocha": "^3.0.1",
     "pon-task-open": "^1.0.2",
     "pon-task-pondoc": "^1.0.2",
     "pon-task-task": "^1.0.1"
   },
   "devDependencies": {
-    "ababel": "^4.0.5",
+    "ababel": "^4.0.6",
     "ababel-es2015": "^2.0.1",
-    "amocha": "^4.0.0",
+    "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
