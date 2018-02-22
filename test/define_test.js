@@ -22,10 +22,8 @@ describe('define', function () {
   it('Define', async () => {
     const ctx = ponContext()
     const task = define({
-      mocha: [`${__dirname}/../misc/mocks/*-test.js`, {}],
       command: ['ls', ['-la']],
       coz: ['.*.bud'],
-      fmtjson: ['*.json'],
       env: [process.env.NODE_ENV],
     })
     ok(task)
