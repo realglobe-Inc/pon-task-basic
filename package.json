@@ -31,7 +31,7 @@
     "pon-task-task": "^1.0.1"
   },
   "devDependencies": {
-    "ababel": "^4.0.7",
+    "ababel": "^4.0.8",
     "ababel-es2015": "^2.0.1",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
@@ -40,9 +40,9 @@
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^6.0.10",
     "ape-updating": "^4.1.1",
-    "coz": "^6.0.20",
+    "coz": "^7.0.1",
     "injectmock": "^2.0.0",
-    "pon": "^5.2.7",
+    "pon": "^5.2.8",
     "pon-context": "^2.0.2",
     "pon-doc": "^2.0.1",
     "sugos-travis": "^2.0.7"
