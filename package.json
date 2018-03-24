@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-basic#readme",
   "dependencies": {
-    "pon-task-command": "^3.0.1",
+    "pon-task-command": "^3.1.1",
     "pon-task-coz": "^1.0.3",
-    "pon-task-env": "^1.3.3",
+    "pon-task-env": "^1.3.4",
     "pon-task-fs": "^3.1.4",
     "pon-task-open": "^1.0.2",
     "pon-task-task": "^1.0.1"
