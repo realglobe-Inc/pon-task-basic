@@ -31,7 +31,7 @@
     "pon-task-task": "^1.0.1"
   },
   "devDependencies": {
-    "ababel": "^4.0.8",
+    "ababel": "^4.0.9",
     "ababel-es2015": "^2.0.1",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
