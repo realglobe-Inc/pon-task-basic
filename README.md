@@ -115,6 +115,15 @@ Define task
 | options.task | Array |  Args for pon-task-task |
 
 
+### `install(options) -> function`
+
+pon task to install package
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| options | Object |  Optional settings |
+
+
 
 <!-- Section from "doc/guides/03.Signature.md.hbs" End -->
 
