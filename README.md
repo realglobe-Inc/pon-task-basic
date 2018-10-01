@@ -101,12 +101,15 @@ Signatures
 ---------
 
 
-### ``
+### `cron(when, task, options) -> function`
 
-
+Pon task to define cron
 
 | Param | type | Description |
 | ---- | --- | ----------- |
+| when | string |  Cron time |
+| task | string&amp;#124;function |  Task to run |
+| options | Object |  Command |
 
 
 ### `define(options) -> function`
