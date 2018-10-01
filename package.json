@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-basic#readme",
   "dependencies": {
+    "cron": "^1.4.1",
     "findup": "^0.1.5",
     "needs-pkg-install": "^1.2.0",
     "pon-task-command": "^3.1.1",
