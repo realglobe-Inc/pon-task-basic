@@ -1,6 +1,6 @@
 {
   "name": "pon-task-basic",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "description": "Basic task set for pon",
   "main": "lib",
   "browser": "shim/browser",
