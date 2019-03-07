@@ -135,6 +135,15 @@ pon task to install package
 | options | Object |  Optional settings |
 
 
+### `sub(ponfile) -> function`
+
+define sub task
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| ponfile | string |  |
+
+
 
 <!-- Section from "doc/guides/03.Signature.md.hbs" End -->
 
