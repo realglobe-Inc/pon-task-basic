@@ -6,6 +6,7 @@
 
 const sub = require('../lib/sub.js')
 const assert = require('assert')
+const ponContext = require('pon-context')
 
 describe('sub', function () {
   this.timeout(3000)
@@ -19,9 +20,10 @@ describe('sub', function () {
   })
 
   it('Sub', async () => {
-    const define = sub(`${__dirname}/../misc/mocks/mock-project01/Ponfile`)
+    const define = sub(`${__dirname}/../misc/mocks/mock-project01`)
     const hey = define('hey')
-    await hey()
+    const ctx = ponContext()
+    await hey(ctx)
   })
 })
 
