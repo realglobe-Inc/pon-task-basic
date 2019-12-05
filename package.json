@@ -23,18 +23,18 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-basic#readme",
   "dependencies": {
-    "cron": "^1.7.1",
+    "cron": "^1.7.2",
     "findup": "^0.1.5",
     "needs-pkg-install": "^1.2.3",
     "pon-task-command": "^3.1.6",
     "pon-task-coz": "^2.0.3",
     "pon-task-env": "^1.3.11",
-    "pon-task-fs": "^3.1.17",
+    "pon-task-fs": "^3.2.1",
     "pon-task-open": "^1.0.2",
     "pon-task-task": "^1.0.2"
   },
   "devDependencies": {
-    "ababel": "^6.0.0",
+    "ababel": "^6.0.3",
     "amocha": "^6.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
